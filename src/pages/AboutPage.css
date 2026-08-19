@@ -26,6 +26,11 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+.about-image img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
 .about-copy h1 {
   font-size: 2.75rem;
   margin-bottom: 20px;
