@@ -202,6 +202,10 @@ body[data-theme="dark"] .skill-level {
     color: var(--accent);
 }
 
+body[data-theme="dark"] .btn-outline:hover {
+    color:#080B11;
+}
+
 /* Form Styling */
 body[data-theme="dark"] input,
 body[data-theme="dark"] textarea {
