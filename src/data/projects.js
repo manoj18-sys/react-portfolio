@@ -1,4 +1,4 @@
-export const categories = ['all', 'web', 'design'];
+export const categories = ['all', 'web', 'Embedded systems'];
 
 export const projectsData = [
 {
@@ -20,16 +20,16 @@ longDesc: 'A multi-page React portfolio with routing, dark mode, and live GitHub
 tech: ['React', 'CSS'],
 category: 'web',
 featured: true,
-liveUrl: '#',
-githubUrl: '#'
+liveUrl: 'https://manojh-portfolio.netlify.app/',
+githubUrl: 'https://github.com/manoj18-sys/react-portfolio'
 },
 {
 id: 3,
-title: 'Todo Manager',
-description: 'Kanban task board',
-longDesc: 'A full-featured task manager with columns and drag-and-drop support.',
-tech: ['JavaScript', 'HTML'],
-category: 'design',
+title: 'Line Following Robot',
+description: 'Arduino-Based Line Following Robot',
+longDesc: 'A robot that follows a particular path without any external controller',
+tech: ['C++', 'Arduino API','Embedded Programming'],
+category: 'Embedded systems',
 featured: false,
 liveUrl: '#',
 githubUrl: '#'
